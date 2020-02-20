@@ -1,0 +1,145 @@
+* {margin: 0; padding: 0;}
+body {
+  background-color: #228B22;
+  padding: 20vh;
+}
+
+.container {
+  width: 1500px;
+  height: 160px;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+}
+.form-container {
+  width: 270px;
+  height: 300px;
+  padding: 20px 30px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #000;
+  margin: auto;
+  position: relative;
+  bottom: -95px;
+}
+
+.user-img {
+  background: url('logo.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+  position: absolute;
+  top: -200px;
+  right: 70%;
+}
+
+ul.bebe {
+  list-style-type: none;
+  text-align: center;
+  font-family: Tw Cen MT;
+  position: absolute;
+  left: 32%;
+  top: 28%;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+ul.list {
+  list-style-type: none;
+  text-align: left;
+  font-family: Tw Cen HT;
+  bottom: 200px;
+}
+
+ul.list li {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+ul.list li input {
+  width: 250px;
+  text-align: center;
+  padding: 8px 0px;
+  border: none;
+  background-color: #D3D3D3;
+}
+
+ul.list li input[type="text"] {
+  text-align: left;
+}
+
+ul.list li input[type="password"] {
+  text-align: left;
+}
+
+ul.list li input[type="button"] {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  position: absolute;
+  border: none;
+  padding: 5px 12px;
+  width: 150px;
+  left: 45%;
+  top: 71%;
+  overflow: hidden;
+}
+
+ul.set li input[type="button"] {
+  background-color: #D3D3D3;
+  position: absolute;
+  color: black;
+  border-radius: 4px;
+  padding: 5px 24px;
+  width: 100px;
+  left: 40%;
+  bottom: 18%;
+}
+
+ul.hana {
+  list-style-type: none;
+  text-align: right;
+  font-family: Tw Cen MT;
+  position: absolute;
+  left: 47%;
+  top: 10%;
+  font-size: 20px;
+}
+
+ul.deul {
+  list-style-type: none;
+  text-align: right;
+  font-family: Tw Cen MT;
+  position: absolute;
+  left: 46%;
+  top: 13%;
+  font-size: 11px;  
+}
+
+.checkbox-inline {
+  padding: left;
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  top: 58S%;
+}
+
+ul.net li input {
+  background-color: #D3D3D3;
+  position: absolute;
+  width: 135px;
+  height: 45px;
+  left: 39%;
+  bottom: 5%;
+}
+
+ul.daseot li input[type="button"] {
+  background-color: #D3D3D3;
+  position: absolute;
+  width: 137px;
+  height: 45px;
+  left: 51%;
+  bottom: 5%;
+
+}

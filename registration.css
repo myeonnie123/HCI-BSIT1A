@@ -1,0 +1,43 @@
+* {margin: 0; padding: 0;}
+body {
+  background-color: #228B22;
+  padding: 20vh;
+}
+
+.container {
+  width: 1500px;
+  height: 160px;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+}
+
+.form-container {
+  width: 270px;
+  height: 300px;
+  padding: 20px 30px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 #000;
+  margin: auto;
+  position: relative;
+  bottom: -100px;
+  font-family: Tw Cent MT;
+}
+
+.user-img {
+  background: url('logo.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  background-size: 100%;
+  position: absolute;
+  top: -200px;
+  right: 70%;
+}
+
+.set {
+  position: absolute;
+  left: 100px;
+}
